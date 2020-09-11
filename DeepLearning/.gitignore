@@ -3,3 +3,5 @@ localPythonEnvironment/
 # Ignoring all data files
 Model Training/data/
 Model Testing/Trained Models/
+
+Data Collection/data/
