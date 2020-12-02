@@ -4,9 +4,9 @@ from time import time
 uniqueString = "Prajjwal"
 
 # lower case
-char = "y"
-trainPath = "data/train/" + char + "/"
-valPath = "data/val/" + char + "/"
+char = "a"
+trainPath = "data/train1/" + char + "/"
+valPath = "data/val2/" + char + "/"
 
 if __name__ == "__main__":
 
@@ -61,7 +61,7 @@ if __name__ == "__main__":
         if keypress == ord(char):
             startCapturing = True
         ################################### CODE FOR STORING IMAGES #########################################################
-        if  keypress == ord("a"):
+        if  keypress == ord("q"):
             break   # Exit the loop
 
 # free up memory
