@@ -3,7 +3,9 @@ Also, this directory contains a program to do a live demo of ASL recognition, us
 
 To start with model training or demo, you will need to setup a python environment.
 
-Python Environment Setup Steps
+# Deep-Learning
+
+## Python Environment Setup Steps
 
 Naviage inside "DeepLearning" directory and run the following commands on the terminal
 
@@ -27,7 +29,7 @@ Prajjwals-MacBook-Pro:DeepLearning prajjwalsinghal$
 This will install all the required dependencies to the localPythonEnvironment
 
 
-Steps to run the live demo program.
+## Steps to run the live demo program.
 
 Make sure you have completed the setup for python environment and you have activate the environment.
 Navigate to the DeepLearning/ModelTesting/src/ folder and in your terminal type "python LiveDemo.py".
