@@ -53,10 +53,16 @@ Prajjwals-MacBook-Pro:DeepLearning prajjwalsinghal$
 
 This will install all the required dependencies to the localPythonEnvironment
 
+4. pip install -U plaidml-keras
+5. plaidml-setup
+
+These steps are necessary for running the model on AMD GPU's, if you want to run on CPU or NVIDIA GPU's skip step 4 and 5 and comment the first 4 lines of LiveDemo.py
 
 ## Steps to run the live demo program.
 
 Make sure you have completed the setup for python environment and you have activate the environment.
+Download the trained model from www.kaggle.com/dataset/655c4b441eebaa8246a4b50380ded3f39101ce80d57e2948bc110aba2995b811 and move it to DeepLearning/Model Testing/Trained Models/
+
 Navigate to the DeepLearning/ModelTesting/src/ folder and in your terminal type "python LiveDemo.py".
 
 This will turn on your webcam and will launch a new window, in the window place your hand inside the green bounding box, and you will be able to see a prediction for the ASL sign the you make.
