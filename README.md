@@ -56,7 +56,7 @@ This will install all the required dependencies to the localPythonEnvironment
 4. pip install -U plaidml-keras
 5. plaidml-setup
 
-These steps are necessary for running the model on AMD GPU's, if you want to run on CPU or NVIDIA GPU's skip step 4 and 5 and comment the first 4 lines of LiveDemo.py
+These steps are necessary for running the model on AMD GPU's, if you want to run on CPU or NVIDIA GPU's skip step 4 and 5 and comment the first 3 lines of LiveDemo.py
 
 ## Steps to run the live demo program.
 
